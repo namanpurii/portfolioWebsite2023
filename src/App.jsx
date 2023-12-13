@@ -1,12 +1,12 @@
 import { useState } from "react";
 import "./App.css";
-import profilepic from "../public/namanpuri_profilepic.png";
-import abtmePic from "../public/aboutme.png";
-import experienceIcon from "../public/experience.png";
-import educationIcon from "../public/education.png";
-import arrowIcon from "../public/arrow.png";
-import checkIcon from "../public/checkmark.png";
-import emailIcon from "../public/email.png";
+import profilepic from "/namanpuri_profilepic.png?url";
+import abtmePic from "/aboutme.png?url";
+import experienceIcon from "/experience.png?url";
+import educationIcon from "/education.png?url";
+import arrowIcon from "/arrow.png?url";
+import checkIcon from "/checkmark.png?url";
+import emailIcon from "/email.png?url";
 
 import { skillsData, links } from "./data";
 import Project from "./components/Project";
