@@ -1,12 +1,12 @@
 import { useState } from "react";
 import "./App.css";
-import profilepic from "../src/images/namanpuri_profilepic.png";
-import abtmePic from "../src/images/aboutme.png";
-import experienceIcon from "../src/images/experience.png";
-import educationIcon from "../src/images/education.png";
-import arrowIcon from "../src/images/arrow.png";
-import checkIcon from "../src/images/checkmark.png";
-import emailIcon from "../src/images/email.png";
+import profilepic from "../public/namanpuri_profilepic.png";
+import abtmePic from "../public/aboutme.png";
+import experienceIcon from "../public/experience.png";
+import educationIcon from "../public/education.png";
+import arrowIcon from "../public/arrow.png";
+import checkIcon from "../public/checkmark.png";
+import emailIcon from "../public/email.png";
 
 import { skillsData, links } from "./data";
 import Project from "./components/Project";
@@ -83,7 +83,9 @@ function App() {
               type="button"
               className="btn btn-color-2"
               onClick={() => {
-                window.open("../src/images/Resume_NamanPuri_Edited.pdf");
+                window.open(
+                  "https://drive.google.com/file/d/1_uKIynMgUA4muR_vZsZvQl1eUpbMkMxI/view?usp=sharing"
+                );
               }}
             >
               Download CV

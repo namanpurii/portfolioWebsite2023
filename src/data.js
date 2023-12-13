@@ -56,41 +56,41 @@ export const skillsData = [
 export const links = [
   {
     platform: "Github",
-    logo: "../src/images/github.png",
+    logo: "../public/github.png",
     userUrl: "https://github.com/namanpurii",
     projectLinks: [
       {
         name: "Hive",
-        image: "../src/images/hive-snapshot.png",
+        image: "../public/hive-snapshot.png",
       },
       {
         name: "Echoloom",
         description: "Manage contacts effectively",
         link: "https://github.com/namanpurii/ContactsApplication_ReactRouter",
-        image: "../src/images/echoloom-snapshot.png",
+        image: "../public/echoloom-snapshot.png",
       },
       {
         name: "Aether",
         description: "Generic E-Commerce Website",
         link: "https://github.com/namanpurii/ECommerce-Website",
-        image: "../src/images/aether-snapshot.png",
+        image: "../public/aether-snapshot.png",
       },
       {
         name: "Basic Calculator in JS",
         link: "https://github.com/namanpurii/Basic-Calculator",
-        image: "../src/images/basiccalculator-snapshot.png",
+        image: "../public/basiccalculator-snapshot.png",
       },
       {
         name: "FabIndia Clone",
         description: "Built using Bootstrap Component Library",
         link: "https://github.com/namanpurii/fabindia-clone",
-        image: "../src/images/fabindia-snapshot.png",
+        image: "../public/fabindia-snapshot.png",
       },
     ],
   },
   {
     platform: "Linkedin",
-    logo: "../src/images/linkedin.png",
+    logo: "../public/linkedin.png",
     userUrl: "https://www.linkedin.com/in/naman-purii/",
   },
   {
