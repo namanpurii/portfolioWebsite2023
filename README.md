@@ -1,7 +1,7 @@
 # Portfolio '23
 
 ## Introduction
-Welcome to my Portfolio Website for the year 2023! Eight months into web development, I've learnt a great deal about native HTML, CSS, and JavaScript to exploring front-end tools like Sass and diving into powerful libraries such as React, it has been an exciting and rewarding experience. Also it
+Welcome to my Portfolio Website for the year 2023! Eight months into web development, I've learnt a great deal about native HTML, CSS, and JavaScript, front-end tools like Sass to exploring powerful libraries such as React and backend frameworks like Express. _Not to forget, it has been an absolute joyride of bugsss_ (╯°□°）╯ 
 
 ## Technologies and Skills
 Throughout this fairly-short journey, I've worked with a diverse set of technologies, including:
