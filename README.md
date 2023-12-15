@@ -16,5 +16,8 @@ Throughout this fairly-short journey, I've worked with a diverse set of technolo
   - Authentication and Authorization using JWTs
   - Server-Side Rendering (SSR) with PHP scripts using view engines like EJS and Pug
 
+## Production Build
+Check out the [live version of Portfolio '23](https://namanpuri.netlify.app/) deployed on [Netlify](https://www.netlify.com/).
+
 ## Motivation for 2024
 New technologies, tougher challenges
