@@ -84,7 +84,7 @@ function App() {
               className="btn btn-color-2"
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1_uKIynMgUA4muR_vZsZvQl1eUpbMkMxI/view?usp=sharing"
+                  "https://drive.google.com/file/d/1cJqJF9M2gtFYlIWQPxIjw45JNhJDqPHC/view?usp=sharing"
                 );
               }}
             >
