@@ -261,7 +261,7 @@ function App() {
               className="icon contact-icon email-icon"
             />
             <p>
-              <a href="mailto:namanpuri02@gmail.com">namanpuri02@gmail.com</a>
+              <a href="mailto:puri2001naman@gmail.com">puri2001naman@gmail.com</a>
             </p>
           </div>
           <div className="contact-info-container">
