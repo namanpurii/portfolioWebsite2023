@@ -113,4 +113,9 @@ export const links = [
       },
     ],
   },
+  {
+    platform: "Behance",
+    logo: "/behance.png?url",
+    userUrl: "https://www.behance.net/namanpurii",
+  },
 ];

@@ -117,6 +117,15 @@ function App() {
                 window.location.href = links?.[0]?.userUrl;
               }}
             />
+            <img
+              className="icon"
+              src={links?.[3]?.logo}
+              alt="link to naman puri's behance profile"
+              onClick={() => {
+                window.location.href = links?.[3]?.userUrl;
+              }}
+              style={{height: "34px"}}
+            />
           </div>
         </div>
       </section>
