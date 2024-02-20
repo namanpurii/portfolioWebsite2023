@@ -36,10 +36,10 @@ export const skillsData = [
   {
     category: "Backend Tools",
     skills: [
-      { skill: "NodeJS", level: "Basic" },
+      { skill: "NodeJS", level: "Intermediate" },
       {
         skill: "Express",
-        level: "Basic",
+        level: "Intermediate",
       },
       {
         skill: "MongoDB",
