@@ -12,19 +12,19 @@ export const skillsData = [
         level: "Experienced",
       },
       {
-        skill: "Bootstrap",
-        level: "Experienced",
+        skill: "TailwindCSS",
+        level: "Basic",
       },
       {
         skill: "Adobe XD",
         level: "Experienced",
       },
       {
-        skill: "Material-UI",
-        level: "Basic",
+        skill: "TypeScript",
+        level: "Intermediate",
       },
       {
-        skill: "Vanilla JS",
+        skill: "JavaScript",
         level: "Experienced",
       },
       {
