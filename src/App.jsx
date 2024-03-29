@@ -259,6 +259,26 @@ function App() {
           }}
         />
       </section>
+      <section id="publications">
+        <p className="section__text__p1">Selected</p>
+        <h1 className="title">Publications</h1>
+        <div style={{display: "flex", alignItems: "center", justifyContent: "center", marginTop: "2rem"}}>
+          <ul style={{display: "flex", flexDirection: "column", rowGap: "2rem"}}>
+            <li>
+              Unmasking Pneumonia with Deep Learning: Enhancing Medical Diagnosis through Advanced AI Models
+              <p>Naman Puri, Abdul Ashhad, Nitish Kumar</p>
+              <strong>2024 14th International Conference on Cloud Computing, Data Science & Engineering (Confluence)</strong>
+              <p>[ <a style={{cursor: "pointer"}} href="https://ieeexplore.ieee.org/document/10463272"><i>IEEE Xplore</i></a> ]</p>
+            </li>
+            <li>
+              Comparitive Analysis on Neural Networks based on their performance in Pneumonia Detection
+              <p>Naman Puri, Geetika Munjal</p>
+              <strong>2023 13th International Conference on Cloud Computing, Data Science & Engineering (Confluence)</strong>
+              <p>[ <a style={{cursor: "pointer"}} href="https://ieeexplore.ieee.org/document/10048884"><i>IEEE Xplore</i></a> ]</p>
+            </li>
+          </ul>
+        </div>
+      </section>
       <section id="contact">
         <p className="section__text__p1">Get in touch</p>
         <h1 className="title">Contact Me</h1>
