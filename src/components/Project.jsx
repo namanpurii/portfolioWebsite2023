@@ -19,7 +19,10 @@ const Project = (props) => {
           type="button"
           className="btn btn-color-2 project-btn"
           onClick={() => {
-            window.location.href = projectInfo.link || "/#projects";
+            const url = projectInfo.link || "/#projects"
+            if(url === "/#projects") window.location.href = url
+            else window.open(url)
+            // window.location.href = projectInfo.link || "/#projects";
           }}
         >
           {projectInfo.link ? "Github" : "Github⚠️"}
@@ -28,7 +31,9 @@ const Project = (props) => {
           type="button"
           className="btn btn-color-2 project-btn"
           onClick={() => {
-            window.location.href = demoInfo.link || "/#projects";
+            const url = demoInfo.link || "/#projects"
+            if(url === "/#projects") window.location.href = url
+            else window.open(url)
           }}
         >
           {demoInfo.link ? "Live Demo" : "Live Demo⚠️"}

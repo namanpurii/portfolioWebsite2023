@@ -60,6 +60,11 @@ export const links = [
     userUrl: "https://github.com/namanpurii",
     projectLinks: [
       {
+        name: "KerasOCR + Llama3 Pipeline",
+        image: "/Llama_3_featured_image.png?url",
+        link: "https://huggingface.co/spaces/namanpurii/llama3_kerasocr/tree/main"
+      },
+      {
         name: "Hive",
         image: "/hive-snapshot.png?url",
       },
@@ -96,6 +101,9 @@ export const links = [
   {
     platform: "Production",
     projectLinks: [
+      {
+        link: "https://huggingface.co/spaces/namanpurii/llama3_kerasocr"
+      },
       {
         link: "https://buildhive.netlify.app/",
       },
