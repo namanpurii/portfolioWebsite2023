@@ -84,7 +84,7 @@ function App() {
               className="btn btn-color-2"
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/11hcrH1sLybk44DDQt48ZwtFPzhJFhHsD/view?usp=sharing"
+                  "https://drive.google.com/file/d/1uUMmGwVCoSj5-ItbCgXdR3mr0Pf0-mBY/view?usp=sharing"
                 );
               }}
             >
@@ -101,31 +101,28 @@ function App() {
             </button>
           </div>
           <div id="socials-container">
-            <img
-              className="icon"
-              src={links?.[1]?.logo}
-              alt="link to naman puri's linkedin profile"
-              onClick={() => {
-                window.location.href = links?.[1]?.userUrl;
-              }}
-            />
-            <img
-              className="icon"
-              src={links?.[0]?.logo}
-              alt="link to naman puri's github profile"
-              onClick={() => {
-                window.location.href = links?.[0]?.userUrl;
-              }}
-            />
-            <img
-              className="icon"
-              src={links?.[3]?.logo}
-              alt="link to naman puri's behance profile"
-              onClick={() => {
-                window.location.href = links?.[3]?.userUrl;
-              }}
-              style={{height: "34px"}}
-            />
+            <a href={links?.[1]?.userUrl} target="_blank" rel="noopener noreferrer">
+              <img
+                className="icon"
+                src={links?.[1]?.logo}
+                alt="link to linkedin profile"
+              />
+            </a>
+            <a href={links?.[0]?.userUrl} target="_blank" rel="noopener noreferrer">
+              <img
+                className="icon"
+                src={links?.[0]?.logo}
+                alt="link to github profile"
+              />
+            </a>
+            <a href={links?.[3]?.userUrl} target="_blank" rel="noopener noreferrer">
+              <img
+                className="icon"
+                src={links?.[3]?.logo}
+                alt="link to behance profile"
+                style={{height: "34px"}}
+              />
+            </a>
           </div>
         </div>
       </section>
